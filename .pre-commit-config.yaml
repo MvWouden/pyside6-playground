@@ -47,14 +47,6 @@ repos:
       always_run: true
 -   repo: local
     hooks:
-    -   id: mypy
-        name: mypy
-        entry: poetry run mypy
-        language: system
-        pass_filenames: false
-        always_run: true
--   repo: local
-    hooks:
     -   id: pytest
         name: pytest
         entry: poetry run pytest

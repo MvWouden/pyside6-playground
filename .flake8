@@ -1,7 +1,6 @@
 [flake8]
 exclude =
     .git
-    .mypy_cache
     .pytest_cache
     build
     docs

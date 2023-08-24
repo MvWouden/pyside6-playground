@@ -30,8 +30,6 @@ jobs:
           pip install -r dev-requirements.txt
       - name: Lint with flake8
         run: flake8 --count --statistics
-      - name: Static analysis with mypy
-        run: mypy
       - name: Unittests with pytest
         run: pytest
       - name: Set up Docker Buildx

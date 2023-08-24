@@ -3,6 +3,7 @@ def test_pyside6_install() -> None:
 
     Ensures the PySide6 version is correct.
     Ensures the Qt compile version matches PySide6 version.
+    Very redundant, but serves as an example (perhaps of what not to do).
     """
     import PySide6.QtCore
 
