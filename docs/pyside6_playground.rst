@@ -1,6 +1,14 @@
 pyside6\_playground package
 ===========================
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pyside6_playground.qt_hello_world
+
 Submodules
 ----------
 

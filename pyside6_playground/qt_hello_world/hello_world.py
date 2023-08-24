@@ -1,6 +1,7 @@
-from __feature__ import snake_case, true_property  # noqa: I900, F401
 from PySide6 import QtCore
 from PySide6.QtWidgets import QLabel, QPushButton, QVBoxLayout, QWidget
+
+from __feature__ import snake_case, true_property  # noqa
 
 
 class HelloWorldWidget(QWidget):
