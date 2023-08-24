@@ -1,6 +1,6 @@
-# modern-python-setup
+# pyside6-playground
 
-A modern python setup, complete with CI, testing, linting, static analysis which is dockerized.
+A PySide6 Playground.
 
 ## Commands
 
@@ -27,7 +27,7 @@ docker compose down
 Running a command in the container:
 
 ```shell
-docker compose run hello_world_app <command>
+docker compose run pyside6_playground_app <command>
 ```
 
 ### Poetry
@@ -35,7 +35,7 @@ docker compose run hello_world_app <command>
 Starting a new package:
 
 ```shell
-poetry new --src <package_name>
+poetry new --src pyside6_playground
 ```
 
 Installing dependencies:
@@ -53,13 +53,13 @@ poetry update  # <package1_name> <package2_name>
 Add a dependency:
 
 ```shell
-poetry add <package_name>  # --group dev
+poetry add pyside6_playground  # --group dev
 ```
 
 Remove a dependency:
 
 ```shell
-poetry remove <package_name>  # --group dev
+poetry remove pyside6_playground  # --group dev
 ```
 
 List available packages:
@@ -111,7 +111,7 @@ pre-commit run -a
 Build the modules:
 
 ```shell
-poetry run sphinx-apidoc -f -o docs <package_name>
+poetry run sphinx-apidoc -f -o docs pyside6_playground
 ```
 
 Build the documentation files:
