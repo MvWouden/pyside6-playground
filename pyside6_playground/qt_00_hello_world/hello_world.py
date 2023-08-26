@@ -10,7 +10,9 @@ class HelloWorldWidget(QWidget):
     def __init__(self: "HelloWorldWidget") -> None:
         """Initialise the widget."""
         super().__init__()
+        # Create layout and set window title
         self.layout: QVBoxLayout = QVBoxLayout(self)
+        self.window_title: str = "Hello World"
 
         # Create button to cycle language
         self.button: QPushButton = QPushButton("Click me!")
